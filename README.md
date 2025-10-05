@@ -9,7 +9,7 @@
 
 ## CSCI E-108 Data Mining, Discovery and Exploration 
 
-## Timeline: September 1 - December 18, 2025 (Python)
+
 
 ## Professor: Stephen Elston, PhD, Princeton University, Principal Consultant, Quantia Analytics LLC
 
@@ -19,9 +19,9 @@
 
 ## Author: **Dai-Phuong Ngo (Liam)**
 
-## Timeline: June 23 - August 6, 2025
-
 ## 🌍🛰🛸 Satellite & UAV Aerial Image Semantic Segmentation
+
+## Timeline: September 1 - December 18, 2025 (Python)
 
 My deep learning project for multi-class semantic segmentation on aerial imagery using **PSPNet**, **UNet** and **DeepLabV3+**, applied to three datasets: UAVID, modified Bhuvan Land Cover & semantic tile datasets.
 

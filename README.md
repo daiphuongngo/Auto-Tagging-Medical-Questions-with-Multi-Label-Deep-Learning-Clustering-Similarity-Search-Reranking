@@ -15,9 +15,7 @@
 
 ## CSCI E-89B **Natural Language Processing** (Python)
 
-## Professor: Dmitry V. Kurochkin, PhD
-
-Senior Research Analyst, Faculty of Arts and Sciences Office for Faculty Affairs, Harvard University
+## Professor: Dmitry V. Kurochkin, PhD, Senior Research Analyst, Faculty of Arts and Sciences Office for Faculty Affairs, Harvard University
 
 ## Author: **Dai-Phuong Ngo (Liam)**
 

@@ -9,8 +9,6 @@
 
 ## CSCI E-108 Data Mining, Discovery and Exploration 
 
-
-
 ## Professor: Stephen Elston, PhD, Princeton University, Principal Consultant, Quantia Analytics LLC
 
 ## CSCI E-89B **Natural Language Processing** (Python)
@@ -18,14 +16,6 @@
 ## Professor: Dmitry V. Kurochkin, PhD, Senior Research Analyst, Faculty of Arts and Sciences Office for Faculty Affairs, Harvard University
 
 ## Author: **Dai-Phuong Ngo (Liam)**
-
-## 🌍🛰🛸 Satellite & UAV Aerial Image Semantic Segmentation
-
-## Timeline: September 1 - December 18, 2025 (Python)
-
-My deep learning project for multi-class semantic segmentation on aerial imagery using **PSPNet**, **UNet** and **DeepLabV3+**, applied to three datasets: UAVID, modified Bhuvan Land Cover & semantic tile datasets.
-
-Youtube: https://www.youtube.com/watch?v=OpkUmdsbYrE
 
 ---
 ### ABSTRACT 

@@ -30,7 +30,7 @@ In parallel, I built four retrieval stacks that combine vector search with re-ra
 
 # Project Overview
 
-I approached this as a dual deliverable: a taxonomy you can present to stakeholders and use for routing, and a retrieval subsystem that empowers agents or models to answer consistently by reusing the best prior content. Practically, that meant I had to balance explainability (simple clusters) and discoverability (fine-grained topics), while keeping the retrieval stack accurate and responsive. My north star was operational value: does the clustering make labeling and QA easier, and does the retrieval stack put the right examples at people’s fingertips?
+I approached this as a dual deliverable: a taxonomy you can present to stakeholders and use for routing, and a retrieval subsystem that empowers agents or models to answer consistently by reusing the best prior content. Practically, that meant I had to balance explainability (simple clusters) and discoverability (fine-grained topics), while keeping the retrieval stack accurate and responsive. My north star was operational value: does the clustering make labeling and QA easier and does the retrieval stack put the right examples at people’s fingertips?
 
 # Problem Statement
 

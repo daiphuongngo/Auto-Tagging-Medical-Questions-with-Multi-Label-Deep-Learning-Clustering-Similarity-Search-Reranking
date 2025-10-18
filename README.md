@@ -97,7 +97,7 @@ I fixed random seeds for reproducibility, logged all hyperparameters, and reused
 **External alignment:** dominant-tag purity and entropy per cluster; cross-cluster tag overlap as a leakage proxy.
 **Human audit:** 15–25 examples per (top) cluster/topic rated for coherence and label quality.
 **Retrieval quality:** useful@k, nDCG@k, tag consistency; latency distribution (p50/p90).
-**Sanity checks:** Outlier behavior (does the method admit “noise”?), stability across runs, and drift sensitivity via shadow deployments.
+**Sanity checks:** Outlier behavior (does the method admit “noise”?), stability across runs and drift sensitivity via shadow deployments.
 
 # Processing Pipeline
 

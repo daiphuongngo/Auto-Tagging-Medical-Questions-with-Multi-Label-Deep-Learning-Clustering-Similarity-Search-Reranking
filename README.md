@@ -39,7 +39,7 @@ Given tens of thousands of short, noisy medical questions and a large tag univer
 1. **Meaningful clusters/topics** that align with real intents and reduce labeling burden.
 2. **High-quality nearest-neighbor retrieval** so that similar questions can be surfaced and re-answered consistently.
 3. **Maintaining explainability** for stakeholders without sacrificing the long-tail specificity essential to healthcare Q&A.
-4. **A maintainable pipeline** that can be retrained, and audited as data drifts.
+4. **A maintainable pipeline** that can be retrained and audited as data drifts.
 
 # Data Exploration
 

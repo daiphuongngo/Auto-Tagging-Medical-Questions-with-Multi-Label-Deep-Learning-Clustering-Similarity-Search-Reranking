@@ -74,7 +74,7 @@ For retrieval, I looked at **useful@k** (a judgment of whether at least one top-
 I used a shared preprocessing base:
 
 * **Normalization:** lowercasing, punctuation/emoji stripping where uninformative, medical token preservation (don’t nuke dosage forms/units), light contraction handling.
-* **Tokenization & n-grams:** unigrams + select medical bigrams for TF-IDF; stopword lists pruned to keep domain words (e.g., “dose,” “mg,” “contraindication”).
+* **Tokenization & n-grams:** unigrams + select medical bigrams for TF-IDF, stopword lists pruned to keep domain words (e.g., “dose,” “mg,” “contraindication”).
 * **Sparse matrices:** TF-IDF (40k columns) and multi-hot tags (3,967 columns); concatenated for KMeans runs to inject weak supervision.
 * **Dimensionality reduction:** Truncated SVD (LSA) to 200D for linear structure; UMAP for manifold structure (n_neighbors=30, min_dist=0.0, cosine).
 * **Embeddings:** Sentence-Transformer family for retrieval and BERTopic.

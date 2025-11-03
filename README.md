@@ -43,7 +43,7 @@ Given tens of thousands of short, noisy medical questions and a large tag univer
 
 # Data Exploration
 
-The dataset includes 47,603 cleaned rows (26 zero-vectors excluded in some runs), a TF-IDF vocabulary (~40k terms), and a multi-hot tag matrix (~3,967 tags). Class and tag distributions are heavy-tailed, with many rare tags and paraphrase-like variants across questions. Cosine similarities in both LSA and embedding spaces show dense “islands” mixed with a broad low-similarity background—classic conditions where KMeans yields one or more catch-all clusters and density methods shine in the tails. I also inspected outliers and zero-information rows; they were either extremely short prompts or artifacts of heavy stopword removal.
+The dataset includes 47,603 cleaned rows (26 zero-vectors excluded in some runs), a TF-IDF vocabulary (~40k terms), and a multi-hot tag matrix (~3,967 tags). Class and tag distributions are heavy-tailed, with many rare tags and paraphrase-like variants across questions. Cosine similarities in both LSA and embedding spaces show dense “islands” mixed with a broad low-similarity background—classic conditions where KMeans yields one or more catch-all clusters, and density methods shine in the tails. I also inspected outliers and zero-information rows; they were either extremely short prompts or artifacts of heavy stopword removal.
 
 # Modelling
 

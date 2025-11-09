@@ -78,7 +78,7 @@ I used a shared preprocessing base:
 * **Sparse matrices:** TF-IDF (40k columns) and multi-hot tags (3,967 columns), concatenated for KMeans runs to inject weak supervision.
 * **Dimensionality reduction:** Truncated SVD (LSA) to 200D for linear structure. UMAP for manifold structure (n_neighbors=30, min_dist=0.0, cosine).
 * **Embeddings:** Sentence-Transformer family for retrieval and BERTopic.
-* **Zero-vectors/outliers:** dropped from clustering, or labeled noise for density-based methods to avoid forced assignments.
+* **Zero-vectors/outliers:** dropped from clustering or labeled noise for density-based methods to avoid forced assignments.
 
 # Model Architectures
 

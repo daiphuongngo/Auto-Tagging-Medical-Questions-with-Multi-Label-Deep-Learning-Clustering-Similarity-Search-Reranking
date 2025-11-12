@@ -65,7 +65,7 @@ I implemented five clustering variants and four retrieval variants:
 
 # Algorithm and Evaluation Strategy
 
-For clustering, I measured internal structure (silhouette, Calinski–Harabasz, Davies–Bouldin), cohesion (mean intra-cluster cosine), separation (mean inter-centroid cosine), and **tag alignment** (dominant-tag purity/entropy and cross-cluster overlap). I’m deliberately cautious comparing numbers across different representation spaces: KMeans metrics in LSA aren’t directly comparable to UMAP-space metrics for HDBSCAN/BERTopic, so I focus on **within-family** comparisons and qualitative consistency (tightness, leakage, interpretability).
+For clustering, I measured internal structure (silhouette, Calinski–Harabasz, Davies–Bouldin), cohesion (mean intra-cluster cosine), separation (mean inter-centroid cosine), and **tag alignment** (dominant-tag purity/entropy and cross-cluster overlap). I’m deliberately cautious comparing numbers across different representation spaces: KMeans metrics in LSA aren’t directly comparable to UMAP-space metrics for HDBSCAN/BERTopic, so I focus on **within-family** comparisons and qualitative consistency (tightness, leakage, and interpretability).
 
 For retrieval, I looked at **useful@k** (a judgment of whether at least one top-k result would help an agent answer), **nDCG@k** for ranking quality, and **latency**. Where labels were available, I also tracked **tag consistency** between queries and retrieved neighbors. In practice, I complemented metrics with **human spot-checks** because two results with close cosine scores can differ dramatically in medical intent.
 

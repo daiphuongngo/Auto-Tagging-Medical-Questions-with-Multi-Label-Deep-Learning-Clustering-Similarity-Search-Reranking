@@ -34,7 +34,7 @@ I approached this as a dual deliverable: a taxonomy you can present to stakehold
 
 # Problem Statement
 
-Given tens of thousands of short, noisy medical questions and a large tag universe, we needed:
+Given tens of thousands of short, noisy medical questions, and a large tag universe, we needed:
 
 1. **Meaningful clusters/topics** that align with real intents and reduce labeling burden.
 2. **High-quality nearest-neighbor retrieval** so that similar questions can be surfaced and re-answered consistently.

@@ -87,7 +87,7 @@ I used a shared preprocessing base:
 
 * **KMeans family (v1–v3):** Linear partitions in LSA space. v1/v2 emphasize interpretability at chosen k; v3 favors throughput (MiniBatch for centroids, Elkan for refinement).
 * **UMAP + HDBSCAN (v4):** Non-parametric density clustering in a manifold-preserving space; returns variable-sized, tight clusters and a noise class, ideal for long-tail intents.
-* **BERTopic (v5):** Embedding-based topics + c-TF-IDF term weighting for interpretable labels; supports topic reduction, hierarchical mapping and model persistence for production.
+* **BERTopic (v5):** Embedding-based topics + c-TF-IDF term weighting for interpretable labels; supports topic reduction, hierarchical mapping, and model persistence for production.
 * **Retrieval v1–v4:** FAISS-style cosine kNN over dense vectors; optional BM25 hybrid; rerankers range from lightweight cross-encoders to stronger but slower ones. I tuned k in two stages (bigger k for recall, then prune to a small presentation k after reranking).
 
 # Training Configuration

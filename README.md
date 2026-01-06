@@ -64,7 +64,7 @@ I implemented five clustering variants and four retrieval variants:
   * *Retrieval v1:* Raw embedding kNN (cosine).
   * *Retrieval v2:* kNN + lexical expansion (BM25) with simple fusion.
   * *Retrieval v3:* kNN → lightweight cross-encoder reranker (precision-focused).
-  * *Retrieval v4:* Hybrid dense+BM25 retrieval → strong reranker (highest precision and higher latency).
+  * *Retrieval v4:* Hybrid dense+BM25 retrieval → strong reranker (highest precision, and higher latency).
 
 # Algorithm and Evaluation Strategy
 

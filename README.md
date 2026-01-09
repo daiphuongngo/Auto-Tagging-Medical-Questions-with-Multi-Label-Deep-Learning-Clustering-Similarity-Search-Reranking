@@ -7,7 +7,7 @@
 
 ## **Master, Data Science**
 
-## CSCI E-108 Data Mining, Discovery, and Exploration 
+## CSCI E-108 Data Mining, Discovery and Exploration 
 
 ## Professor: Stephen Elston, PhD, Princeton University, Principal Consultant, Quantia Analytics LLC
 

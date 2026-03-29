@@ -150,7 +150,7 @@ If I need one model to **show the business today**, I choose **v1 (KMeans, k=15)
 | **v4.2**   | ★★★★★                 | Full POS-based cleaning, strict noun whitelist, rare-tag ≥5, multi-hot reconstruction clean             | Dataset stable but still includes 217+ labels                |
 | **v5.2**   | ★★★★★                 | Same strict v4.2 preprocessing – but now optimized for GRU architecture                                 | No contextual embeddings: LSTM must work hard                |
 | **v6.2**   | ★★★★★                 | Deduplication logic finalized, full v1.3 cleaning applied, perfect label reconstruction                 | Dataset still very multi-label but single-label ground truth |
-| **v7.4**   | ★★★★★                 | Best preprocessing: final dataset = **121 labels**, perfectly cleaned, consistent, medically pure     | None – this is the final gold-standard dataset               |
+| **v7.4**   | ★★★★★                 | Best preprocessing: final dataset = **121 labels**, perfectly cleaned, consistent, and medically pure     | None – this is the final gold-standard dataset               |
 
 ### **Summary:**
 
